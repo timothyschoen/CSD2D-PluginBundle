@@ -10,11 +10,11 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.TS.AnalogPluginTemplate</string>
+    <string>com.TS.Fuzzface</string>
     <key>CFBundleName</key>
-    <string>AnalogPluginTemplate</string>
+    <string>Fuzzface</string>
     <key>CFBundleDisplayName</key>
-    <string>AnalogPluginTemplate</string>
+    <string>Fuzzface</string>
     <key>CFBundlePackageType</key>
     <string>BNDL</string>
     <key>CFBundleSignature</key>
@@ -31,11 +31,11 @@
     <array>
       <dict>
         <key>name</key>
-        <string>TS: AnalogPluginTemplate</string>
+        <string>TS: Fuzzface</string>
         <key>description</key>
-        <string>AnalogPluginTemplate</string>
+        <string>Fuzzface</string>
         <key>factoryFunction</key>
-        <string>AnalogPluginTemplateAUFactory</string>
+        <string>FuzzfaceAUFactory</string>
         <key>manufacturer</key>
         <string>Manu</string>
         <key>type</key>

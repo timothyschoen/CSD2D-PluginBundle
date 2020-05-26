@@ -2,6 +2,12 @@
 
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Filter Include="AnalogPluginTemplate\Include\KLU">
+      <UniqueIdentifier>{65012007-1322-D479-180C-9ED1B96C078D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AnalogPluginTemplate\Include">
+      <UniqueIdentifier>{B5B90BEE-1C4C-E9EC-03A9-46D7D402A951}</UniqueIdentifier>
+    </Filter>
     <Filter Include="AnalogPluginTemplate\Libraries\AMD\Source">
       <UniqueIdentifier>{AC91FD92-BC69-483B-C1B8-0742FF5383BD}</UniqueIdentifier>
     </Filter>
@@ -40,12 +46,6 @@
     </Filter>
     <Filter Include="AnalogPluginTemplate\engine">
       <UniqueIdentifier>{08D8B43F-179F-ED87-52B4-2F74B4D9B41A}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AnalogPluginTemplate\include\KLU_lib">
-      <UniqueIdentifier>{FFA40812-3818-D334-77D9-45C8757EEF1F}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="AnalogPluginTemplate\include">
-      <UniqueIdentifier>{A5215649-EC67-D525-CBE9-BE645FDC6754}</UniqueIdentifier>
     </Filter>
     <Filter Include="AnalogPluginTemplate">
       <UniqueIdentifier>{F4364C74-CCD8-9868-18D4-F0C2E30A0363}</UniqueIdentifier>
@@ -2616,6 +2616,69 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Include\KLU\amd.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\amd_internal.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\btf.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\btf_internal.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\camd.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\ccolamd.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\colamd.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\klu.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\klu_internal.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\klu_version.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\metis.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\KLU\SuiteSparse_config.h">
+      <Filter>AnalogPluginTemplate\Include\KLU</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\AudioFile.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\dataStruct.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\junctions.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\klu_solver.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\patch.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\PluginEditor.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\PluginProcessor.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\ScopeComponent.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Include\SliderClass.h">
+      <Filter>AnalogPluginTemplate\Include</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Libraries\SuiteSparse_config\SuiteSparse_config.h">
       <Filter>AnalogPluginTemplate\Libraries\SuiteSparse_config</Filter>
     </ClInclude>
@@ -2633,54 +2696,6 @@
     </ClInclude>
     <ClInclude Include="..\..\Source\PluginEditor.h">
       <Filter>AnalogPluginTemplate\Source</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\amd.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\amd_internal.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\btf.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\btf_internal.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\camd.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\ccolamd.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\colamd.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\klu.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\klu_internal.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\klu_version.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\metis.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\KLU_lib\SuiteSparse_config.h">
-      <Filter>AnalogPluginTemplate\include\KLU_lib</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\klu_solver.h">
-      <Filter>AnalogPluginTemplate\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\AudioFile.h">
-      <Filter>AnalogPluginTemplate\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\include\junctions.h">
-      <Filter>AnalogPluginTemplate\include</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\patch.h">
-      <Filter>AnalogPluginTemplate</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h">
       <Filter>JUCE Modules\juce_audio_basics\audio_play_head</Filter>
@@ -2802,7 +2817,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_audio_basics\utilities\juce_SmoothedValue.h">
       <Filter>JUCE Modules\juce_audio_basics\utilities</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_audio_basics\juce_audio_basics.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_audio_basics\juce_audio_basics.h">
       <Filter>JUCE Modules\juce_audio_basics</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_audio_devices\audio_io\juce_AudioDeviceManager.h">
@@ -2838,7 +2853,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_audio_devices\sources\juce_AudioTransportSource.h">
       <Filter>JUCE Modules\juce_audio_devices\sources</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_audio_devices\juce_audio_devices.h">
       <Filter>JUCE Modules\juce_audio_devices</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_audio_formats\codecs\flac\libFLAC\include\private\all.h">
@@ -3132,7 +3147,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_audio_formats\sampler\juce_Sampler.h">
       <Filter>JUCE Modules\juce_audio_formats\sampler</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_audio_formats\juce_audio_formats.h">
       <Filter>JUCE Modules\juce_audio_formats</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_audio_plugin_client\AU\CoreAudioUtilityClasses\AUBase.h">
@@ -3291,7 +3306,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_audio_plugin_client\VST\juce_VSTCallbackHandler.h">
       <Filter>JUCE Modules\juce_audio_plugin_client\VST</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_audio_plugin_client\juce_audio_plugin_client.h">
       <Filter>JUCE Modules\juce_audio_plugin_client</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_audio_processors\format\juce_AudioPluginFormat.h">
@@ -3573,7 +3588,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_audio_processors\utilities\juce_RangedAudioParameter.h">
       <Filter>JUCE Modules\juce_audio_processors\utilities</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_audio_processors\juce_audio_processors.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_audio_processors\juce_audio_processors.h">
       <Filter>JUCE Modules\juce_audio_processors</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_audio_utils\audio_cd\juce_AudioCDBurner.h">
@@ -3612,7 +3627,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_audio_utils\players\juce_SoundPlayer.h">
       <Filter>JUCE Modules\juce_audio_utils\players</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_audio_utils\juce_audio_utils.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_audio_utils\juce_audio_utils.h">
       <Filter>JUCE Modules\juce_audio_utils</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_core\containers\juce_AbstractFifo.h">
@@ -4020,7 +4035,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_core\zip\juce_ZipFile.h">
       <Filter>JUCE Modules\juce_core\zip</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_core\juce_core.h">
       <Filter>JUCE Modules\juce_core</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_cryptography\encryption\juce_BlowFish.h">
@@ -4041,7 +4056,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_cryptography\hashing\juce_Whirlpool.h">
       <Filter>JUCE Modules\juce_cryptography\hashing</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_cryptography\juce_cryptography.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_cryptography\juce_cryptography.h">
       <Filter>JUCE Modules\juce_cryptography</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_data_structures\app_properties\juce_ApplicationProperties.h">
@@ -4071,7 +4086,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_data_structures\values\juce_ValueWithDefault.h">
       <Filter>JUCE Modules\juce_data_structures\values</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_data_structures\juce_data_structures.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_data_structures\juce_data_structures.h">
       <Filter>JUCE Modules\juce_data_structures</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_events\broadcasters\juce_ActionBroadcaster.h">
@@ -4146,7 +4161,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_events\timers\juce_Timer.h">
       <Filter>JUCE Modules\juce_events\timers</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_events\juce_events.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_events\juce_events.h">
       <Filter>JUCE Modules\juce_events</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_graphics\colour\juce_Colour.h">
@@ -4323,7 +4338,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_graphics\placement\juce_RectanglePlacement.h">
       <Filter>JUCE Modules\juce_graphics\placement</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_graphics\juce_graphics.h">
       <Filter>JUCE Modules\juce_graphics</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\application\juce_Application.h">
@@ -4743,7 +4758,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_gui_basics\windows\juce_TopLevelWindow.h">
       <Filter>JUCE Modules\juce_gui_basics\windows</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_gui_basics\juce_gui_basics.h">
       <Filter>JUCE Modules\juce_gui_basics</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_gui_extra\code_editor\juce_CodeDocument.h">
@@ -4827,7 +4842,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_gui_extra\native\juce_mac_CarbonViewWrapperComponent.h">
       <Filter>JUCE Modules\juce_gui_extra\native</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_gui_extra\juce_gui_extra.h">
       <Filter>JUCE Modules\juce_gui_extra</Filter>
     </ClInclude>
     <ClInclude Include="C:\JUCE\modules\juce_opengl\geometry\juce_Draggable3DOrientation.h">
@@ -4893,7 +4908,7 @@
     <ClInclude Include="C:\JUCE\modules\juce_opengl\utils\juce_OpenGLAppComponent.h">
       <Filter>JUCE Modules\juce_opengl\utils</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\..\..\..\..\JUCE\modules\juce_opengl\juce_opengl.h">
+    <ClInclude Include="..\..\..\..\..\..\JUCE\modules\juce_opengl\juce_opengl.h">
       <Filter>JUCE Modules\juce_opengl</Filter>
     </ClInclude>
     <ClInclude Include="..\..\JuceLibraryCode\AppConfig.h">

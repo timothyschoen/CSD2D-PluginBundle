@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="Uyyk9m" name="AnalogPluginTemplate" projectType="audioplug"
-              jucerVersion="5.4.7" companyName="TS" cppLanguageStandard="17"
-              version="0.1">
-  <MAINGROUP id="vpQoCw" name="AnalogPluginTemplate">
+<JUCERPROJECT id="Uyyk9m" name="Fuzzface" projectType="audioplug" jucerVersion="5.4.7"
+              companyName="TS" cppLanguageStandard="17" version="0.1">
+  <MAINGROUP id="vpQoCw" name="Fuzzface">
     <GROUP id="{10715BFD-63C9-3A9A-055C-FA0954A4D413}" name="Include">
       <GROUP id="{3CF54447-9F4F-F5B9-6E4E-FF24758A094D}" name="KLU">
         <FILE id="efprbo" name="amd.h" compile="0" resource="0" file="Include/KLU/amd.h"/>

@@ -3,7 +3,7 @@
 #include <algorithm>
 #include <cmath>
 #include "junctions.h"
-#include "AudioFile.h"
+
 #include "patch.h"
 
 
@@ -23,7 +23,6 @@ void Patch::init() {
     pn4.initJunctionPN(3.5e-11, 1.24);
     pn4.linearizeJunctionPN(0);
 
-    audioInFile1.load("/Users/timothy/Documents/Circuitry/Media//sample-44k.wav");
     A[6][6] += pn1.geq + 1e-12;
     A[7][7] += pn2.geq + 1e-12;
     A[8][8] += pn3.geq + 1e-12;
@@ -40,7 +39,7 @@ double Patch::inout(double input) {
     
       
       
-    b[5] += audioInFile1.samples[0][ticks] * 0.2;
+    b[5] += input * 0.5;
     memcpy(b_prelu, b, sizeof(b));
     
     for(int iter = 0; iter < maxiter; iter++) {

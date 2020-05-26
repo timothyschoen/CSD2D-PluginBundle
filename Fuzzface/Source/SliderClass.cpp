@@ -50,7 +50,7 @@ void SliderClass::resized(AudioProcessorEditor &process)
 void SliderClass::draw(Graphics &g, AudioProcessorEditor &process)
 {
    g.drawFittedText ("Gain", 220, 215, 50, 20, Justification::centred, 1);
-   g.drawFittedText ("Slider", 282.5, 215, 50, 20, Justification::centred, 1);
+   g.drawFittedText ("Fuzz", 282.5, 215, 50, 20, Justification::centred, 1);
    g.drawFittedText ("Volume", 345, 215, 50, 20, Justification::centred, 1);
    g.drawFittedText ("Dry/Wet", 407.5, 215, 50, 20, Justification::centred, 1);
   g.setColour (Colour::fromString("FFff8051"));

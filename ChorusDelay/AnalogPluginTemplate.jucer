@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="Uyyk9m" name="ChorusDelay" projectType="audioplug" jucerVersion="5.4.7"
+              companyName="TS" cppLanguageStandard="17" version="0.1">
+  <MAINGROUP id="vpQoCw" name="ChorusDelay">
+    <GROUP id="{10715BFD-63C9-3A9A-055C-FA0954A4D413}" name="Include">
+      <GROUP id="{3CF54447-9F4F-F5B9-6E4E-FF24758A094D}" name="KLU">
+        <FILE id="efprbo" name="amd.h" compile="0" resource="0" file="Include/KLU/amd.h"/>
+        <FILE id="qaSyGG" name="amd_internal.h" compile="0" resource="0" file="Include/KLU/amd_internal.h"/>
+        <FILE id="tbv9ZJ" name="btf.h" compile="0" resource="0" file="Include/KLU/btf.h"/>
+        <FILE id="V9WAmw" name="btf_internal.h" compile="0" resource="0" file="Include/KLU/btf_internal.h"/>
+        <FILE id="VuxySj" name="camd.h" compile="0" resource="0" file="Include/KLU/camd.h"/>
+        <FILE id="IC56uj" name="ccolamd.h" compile="0" resource="0" file="Include/KLU/ccolamd.h"/>
+        <FILE id="Sdjrtx" name="colamd.h" compile="0" resource="0" file="Include/KLU/colamd.h"/>
+        <FILE id="kdNVtN" name="klu.h" compile="0" resource="0" file="Include/KLU/klu.h"/>
+        <FILE id="p56m6I" name="klu_internal.h" compile="0" resource="0" file="Include/KLU/klu_internal.h"/>
+        <FILE id="YlYXWs" name="klu_version.h" compile="0" resource="0" file="Include/KLU/klu_version.h"/>
+        <FILE id="KpWrhk" name="metis.h" compile="0" resource="0" file="Include/KLU/metis.h"/>
+        <FILE id="etgx9r" name="SuiteSparse_config.h" compile="0" resource="0"
+              file="Include/KLU/SuiteSparse_config.h"/>
+      </GROUP>
+      <FILE id="ITp5IK" name="AudioFile.h" compile="0" resource="0" file="Include/AudioFile.h"/>
+      <FILE id="x7sH3Z" name="dataStruct.h" compile="0" resource="0" file="Include/dataStruct.h"/>
+      <FILE id="lrl662" name="junctions.h" compile="0" resource="0" file="Include/junctions.h"/>
+      <FILE id="kG4QQc" name="klu_solver.h" compile="0" resource="0" file="Include/klu_solver.h"/>
+      <FILE id="uyBQG1" name="patch.h" compile="0" resource="0" file="Include/patch.h"/>
+      <FILE id="rSeN4l" name="PluginEditor.h" compile="0" resource="0" file="Include/PluginEditor.h"/>
+      <FILE id="kS1Bxa" name="PluginProcessor.h" compile="0" resource="0"
+            file="Include/PluginProcessor.h"/>
+      <FILE id="Ts9bwD" name="ScopeComponent.h" compile="0" resource="0"
+            file="Include/ScopeComponent.h"/>
+      <FILE id="DNnkoa" name="SliderClass.h" compile="0" resource="0" file="Include/SliderClass.h"/>
+    </GROUP>
+    <GROUP id="{7E62ACAD-98F2-5917-F78A-47042AE6A9D7}" name="Libraries">
+      <GROUP id="{559A99D1-0F5C-8E5F-754A-E72A7421FE52}" name="AMD">
+        <GROUP id="{E92E156F-021D-7FEC-6A39-9068895A3678}" name="Source">
+          <FILE id="aw6U9o" name="amd.f" compile="0" resource="1" file="Libraries/AMD/Source/amd.f"/>
+          <FILE id="MyrzUY" name="amd_1.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_1.c"/>
+          <FILE id="T0UNr5" name="amd_2.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_2.c"/>
+          <FILE id="fB4ZUk" name="amd_aat.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_aat.c"/>
+          <FILE id="K7RUjR" name="amd_control.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_control.c"/>
+          <FILE id="uDfwWg" name="amd_defaults.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_defaults.c"/>
+          <FILE id="wLi8SY" name="amd_dump.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_dump.c"/>
+          <FILE id="TUzNNh" name="amd_global.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_global.c"/>
+          <FILE id="d7f4Xb" name="amd_info.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_info.c"/>
+          <FILE id="vCqf17" name="amd_order.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_order.c"/>
+          <FILE id="tGFLzj" name="amd_post_tree.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_post_tree.c"/>
+          <FILE id="fVDak0" name="amd_postorder.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_postorder.c"/>
+          <FILE id="oSFeoN" name="amd_preprocess.c" compile="1" resource="0"
+                file="Libraries/AMD/Source/amd_preprocess.c"/>
+          <FILE id="qSyxr2" name="amd_valid.c" compile="1" resource="0" file="Libraries/AMD/Source/amd_valid.c"/>
+          <FILE id="bX92wI" name="amdbar.f" compile="0" resource="1" file="Libraries/AMD/Source/amdbar.f"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{B94849F6-48A2-3C58-3D57-688454F4298D}" name="BTF">
+        <GROUP id="{67750729-46B8-EC7E-D1D2-C6D9D8C085F9}" name="Source">
+          <FILE id="gff2ax" name="btf_maxtrans.c" compile="1" resource="0" file="Libraries/BTF/Source/btf_maxtrans.c"/>
+          <FILE id="WN82m6" name="btf_order.c" compile="1" resource="0" file="Libraries/BTF/Source/btf_order.c"/>
+          <FILE id="VGus80" name="btf_strongcomp.c" compile="1" resource="0"
+                file="Libraries/BTF/Source/btf_strongcomp.c"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{F1677EAA-C711-9792-1DA4-CA96D203176F}" name="COLAMD">
+        <GROUP id="{526ABCB9-E3AF-B81F-79F5-C31E414EA21E}" name="Source">
+          <FILE id="DfuDlL" name="colamd.c" compile="1" resource="0" file="Libraries/COLAMD/Source/colamd.c"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{7046ADE7-5989-C908-CAD7-F7EBF63E0BE4}" name="KLU">
+        <GROUP id="{E62DA1EB-B7FC-3FE0-09D2-50F34D8C156F}" name="Source">
+          <FILE id="Mbm6Vs" name="klu.c" compile="1" resource="0" file="Libraries/KLU/Source/klu.c"/>
+          <FILE id="gb9hjI" name="klu_analyze.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_analyze.c"/>
+          <FILE id="EcI8KC" name="klu_analyze_given.c" compile="1" resource="0"
+                file="Libraries/KLU/Source/klu_analyze_given.c"/>
+          <FILE id="JOWbwo" name="klu_defaults.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_defaults.c"/>
+          <FILE id="RUnqjU" name="klu_diagnostics.c" compile="1" resource="0"
+                file="Libraries/KLU/Source/klu_diagnostics.c"/>
+          <FILE id="g8LL5B" name="klu_dump.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_dump.c"/>
+          <FILE id="MMeppj" name="klu_extract.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_extract.c"/>
+          <FILE id="fnwYhv" name="klu_factor.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_factor.c"/>
+          <FILE id="Rw3i0U" name="klu_free_numeric.c" compile="1" resource="0"
+                file="Libraries/KLU/Source/klu_free_numeric.c"/>
+          <FILE id="VVFE0p" name="klu_free_symbolic.c" compile="1" resource="0"
+                file="Libraries/KLU/Source/klu_free_symbolic.c"/>
+          <FILE id="mHpvO3" name="klu_kernel.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_kernel.c"/>
+          <FILE id="wNHMeB" name="klu_memory.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_memory.c"/>
+          <FILE id="PkXOMh" name="klu_refactor.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_refactor.c"/>
+          <FILE id="aRZjS5" name="klu_scale.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_scale.c"/>
+          <FILE id="uOnXRn" name="klu_solve.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_solve.c"/>
+          <FILE id="Yhqhbm" name="klu_sort.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_sort.c"/>
+          <FILE id="bzK0RA" name="klu_tsolve.c" compile="1" resource="0" file="Libraries/KLU/Source/klu_tsolve.c"/>
+        </GROUP>
+      </GROUP>
+      <GROUP id="{47338B8F-F4D7-9E26-7F1F-3348EE1AA015}" name="SuiteSparse_config">
+        <FILE id="PE0kmf" name="libsuitesparseconfig.a" compile="0" resource="1"
+              file="Libraries/SuiteSparse_config/libsuitesparseconfig.a"/>
+        <FILE id="fBfipT" name="SuiteSparse_config.c" compile="1" resource="0"
+              file="Libraries/SuiteSparse_config/SuiteSparse_config.c"/>
+        <FILE id="k25e9K" name="SuiteSparse_config.h" compile="0" resource="0"
+              file="Libraries/SuiteSparse_config/SuiteSparse_config.h"/>
+        <FILE id="Ka2pjd" name="SuiteSparse_config.mk" compile="0" resource="1"
+              file="Libraries/SuiteSparse_config/SuiteSparse_config.mk"/>
+        <FILE id="EWf4Ez" name="SuiteSparse_config.o" compile="0" resource="1"
+              file="Libraries/SuiteSparse_config/SuiteSparse_config.o"/>
+      </GROUP>
+    </GROUP>
+    <GROUP id="{2D4FDD9E-6CE8-E663-3968-754739E7AA6B}" name="Assets">
+      <FILE id="Awc02w" name="font.otf" compile="0" resource="1" file="Assets/font.otf"/>
+      <FILE id="LWm5w6" name="image.png" compile="0" resource="1" file="Assets/image.png"/>
+      <FILE id="ZEyO46" name="logo.png" compile="0" resource="1" file="Assets/logo.png"/>
+      <FILE id="IcipBN" name="clickedswitch.png" compile="0" resource="1"
+            file="Assets/clickedswitch.png"/>
+      <FILE id="i17Bz4" name="offswitch.png" compile="0" resource="1" file="Assets/offswitch.png"/>
+      <FILE id="eRYsCe" name="font.ttf" compile="0" resource="1" file="Assets/font.ttf"/>
+      <FILE id="WDKGtL" name="onswitch.png" compile="0" resource="1" file="Assets/onswitch.png"/>
+    </GROUP>
+    <GROUP id="{F401B007-1887-62C1-8012-0CF49CE23CDA}" name="Source">
+      <FILE id="hbM0e0" name="dataStruct.h" compile="0" resource="0" file="Source/dataStruct.h"/>
+      <FILE id="teV9Bm" name="ScopeComponent.cpp" compile="1" resource="0"
+            file="Source/ScopeComponent.cpp"/>
+      <FILE id="iKPZYg" name="ScopeComponent.h" compile="0" resource="0"
+            file="Source/ScopeComponent.h"/>
+      <FILE id="T6JT9u" name="SliderClass.cpp" compile="1" resource="0" file="Source/SliderClass.cpp"/>
+      <FILE id="AfiQ9s" name="SliderClass.h" compile="0" resource="0" file="Source/SliderClass.h"/>
+      <FILE id="Y1laZY" name="PluginProcessor.cpp" compile="1" resource="0"
+            file="Source/PluginProcessor.cpp"/>
+      <FILE id="hBhvCm" name="PluginProcessor.h" compile="0" resource="0"
+            file="Source/PluginProcessor.h"/>
+      <FILE id="qQF4MH" name="PluginEditor.cpp" compile="1" resource="0"
+            file="Source/PluginEditor.cpp"/>
+      <FILE id="qJURU6" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    </GROUP>
+    <GROUP id="{C84705D2-0226-10E0-84FA-87C6760E93E6}" name="engine">
+      <FILE id="Va0D40" name="klu_solver.cpp" compile="1" resource="0" file="Source/engine/klu_solver.cpp"/>
+      <FILE id="gZdAKB" name="patch_static.cpp" compile="1" resource="0"
+            file="Source/engine/patch_static.cpp"/>
+      <FILE id="foh5HA" name="junctions.cpp" compile="1" resource="0" file="Source/engine/junctions.cpp"/>
+    </GROUP>
+    <FILE id="mAtkqi" name="patch.cpp" compile="1" resource="0" file="Source/patch.cpp"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" microphonePermissionNeeded="1">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../Include&#10;../../Include/KLU"/>
+        <CONFIGURATION name="Release" optimisation="3" linkTimeOptimisation="1" isDebug="0"
+                       headerPath="../../Include&#10;../../Include/KLU"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_audio_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_devices" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_processors" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_audio_utils" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_cryptography" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../JUCE/modules"/>
+        <MODULEPATH id="juce_opengl" path="../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <LINUX_MAKE targetFolder="Builds/LinuxMakefile">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../Include&#10;../../Include/KLU"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="../../Include&#10;../../Include/KLU"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl"/>
+        <MODULEPATH id="juce_gui_extra"/>
+        <MODULEPATH id="juce_gui_basics"/>
+        <MODULEPATH id="juce_graphics"/>
+        <MODULEPATH id="juce_events"/>
+        <MODULEPATH id="juce_data_structures"/>
+        <MODULEPATH id="juce_cryptography"/>
+        <MODULEPATH id="juce_core"/>
+        <MODULEPATH id="juce_audio_utils"/>
+        <MODULEPATH id="juce_audio_processors"/>
+        <MODULEPATH id="juce_audio_plugin_client"/>
+        <MODULEPATH id="juce_audio_formats"/>
+        <MODULEPATH id="juce_audio_devices"/>
+        <MODULEPATH id="juce_audio_basics"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../Include&#10;../../Include/KLU"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="../../Include&#10;../../Include/KLU"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_opengl"/>
+        <MODULEPATH id="juce_gui_extra"/>
+        <MODULEPATH id="juce_gui_basics"/>
+        <MODULEPATH id="juce_graphics"/>
+        <MODULEPATH id="juce_events"/>
+        <MODULEPATH id="juce_data_structures"/>
+        <MODULEPATH id="juce_cryptography"/>
+        <MODULEPATH id="juce_core"/>
+        <MODULEPATH id="juce_audio_utils"/>
+        <MODULEPATH id="juce_audio_processors"/>
+        <MODULEPATH id="juce_audio_plugin_client"/>
+        <MODULEPATH id="juce_audio_formats"/>
+        <MODULEPATH id="juce_audio_devices"/>
+        <MODULEPATH id="juce_audio_basics"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULE id="juce_audio_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_devices" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_formats" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"
+            useGlobalPath="1"/>
+    <MODULE id="juce_audio_processors" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_audio_utils" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_cryptography" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_opengl" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <LIVE_SETTINGS>
+    <OSX/>
+  </LIVE_SETTINGS>
+  <JUCEOPTIONS JUCE_VST3_CAN_REPLACE_VST2="0" JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+</JUCERPROJECT>

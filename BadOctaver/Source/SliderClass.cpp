@@ -30,7 +30,7 @@ void SliderClass::makeSliders(AudioProcessorEditor &process, NewProjectAudioProc
   process.getLookAndFeel().setColour (TextButton::textColourOffId, Colours::darkgrey);
   process.getLookAndFeel().setColour (TextButton::textColourOnId, Colours::darkgrey);
   customFont = (Font (Typeface::createSystemTypefaceFor (BinaryData::font_otf, BinaryData::font_otfSize)));
-  customFont.setHeight (65);
+  customFont.setHeight (45);
   }
 
 

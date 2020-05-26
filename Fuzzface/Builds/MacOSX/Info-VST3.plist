@@ -10,11 +10,11 @@
     <key>CFBundleIconFile</key>
     <string></string>
     <key>CFBundleIdentifier</key>
-    <string>com.TS.AnalogPluginTemplate</string>
+    <string>com.TS.Fuzzface</string>
     <key>CFBundleName</key>
-    <string>AnalogPluginTemplate</string>
+    <string>Fuzzface</string>
     <key>CFBundleDisplayName</key>
-    <string>AnalogPluginTemplate</string>
+    <string>Fuzzface</string>
     <key>CFBundlePackageType</key>
     <string>BNDL</string>
     <key>CFBundleSignature</key>

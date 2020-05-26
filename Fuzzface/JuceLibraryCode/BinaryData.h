@@ -39,7 +39,7 @@ namespace BinaryData
     const int            offswitch_pngSize = 775;
 
     extern const char*   font_ttf;
-    const int            font_ttfSize = 33600;
+    const int            font_ttfSize = 47340;
 
     extern const char*   onswitch_png;
     const int            onswitch_pngSize = 1359;

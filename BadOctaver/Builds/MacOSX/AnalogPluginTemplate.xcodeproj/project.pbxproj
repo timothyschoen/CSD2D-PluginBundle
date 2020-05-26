@@ -333,6 +333,13 @@
 			isa = PBXBuildFile;
 			fileRef = 60C6BDAA7FEE4EAADE9A0E6B;
 		};
+		02DDBAD1D443B48CAD9B72A7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = AudioFile.h;
+			path = ../../Include/AudioFile.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		03588194D7B8C863024CF7D2 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.c;
@@ -353,6 +360,20 @@
 			includeInIndex = 0;
 			path = AnalogPluginTemplate.component;
 			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		051692253A1F78AC959D44F1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ccolamd.h;
+			path = ../../Include/KLU/ccolamd.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		05B34A54CA372A4BDA707D10 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = patch.h;
+			path = ../../Include/patch.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		07AE015B8602325CCCA2AE98 = {
 			isa = PBXFileReference;
@@ -382,13 +403,6 @@
 			path = "../../JuceLibraryCode/include_juce_audio_utils.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
-		0C079738AB6DDEB7AF446499 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = btf.h;
-			path = "../../Source/include/KLU_lib/btf.h";
-			sourceTree = "SOURCE_ROOT";
-		};
 		0FC5B157F6AB1800291E7946 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.c;
@@ -409,6 +423,20 @@
 			name = "juce_opengl";
 			path = "/Users/timothy/JUCE/modules/juce_opengl";
 			sourceTree = "<absolute>";
+		};
+		120F37A204853FA995D86FCC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = btf.h;
+			path = ../../Include/KLU/btf.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		14D68F0F87850B0FE4204927 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = ScopeComponent.h;
+			path = ../../Include/ScopeComponent.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		16AC47D40FABEDDB997FE72A = {
 			isa = PBXFileReference;
@@ -436,13 +464,6 @@
 			lastKnownFileType = sourcecode.c.c;
 			name = "amd_preprocess.c";
 			path = "../../Libraries/AMD/Source/amd_preprocess.c";
-			sourceTree = "SOURCE_ROOT";
-		};
-		1BD92C9E16755813CC2B6C3A = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = junctions.h;
-			path = ../../Source/include/junctions.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		1CD5719E9FE8C4E2F28D26A1 = {
@@ -473,11 +494,25 @@
 			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		2389B07724E9DA6D938DA113 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "amd_internal.h";
+			path = "../../Include/KLU/amd_internal.h";
+			sourceTree = "SOURCE_ROOT";
+		};
 		2A64D38F316B24528BEFB532 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_graphics.mm";
 			path = "../../JuceLibraryCode/include_juce_graphics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2EF3B9399736832E73329D03 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = metis.h;
+			path = ../../Include/KLU/metis.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		2F30B725FC5E499B3EF1966F = {
@@ -543,18 +578,18 @@
 			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_utils.cpp";
 			sourceTree = "SOURCE_ROOT";
 		};
-		43AE2B303851B669C0BBBCA5 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = "btf_internal.h";
-			path = "../../Source/include/KLU_lib/btf_internal.h";
-			sourceTree = "SOURCE_ROOT";
-		};
 		440DA1B7462CD613F4CAB3F8 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_core.mm";
 			path = "../../JuceLibraryCode/include_juce_core.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		48582FAA7C81B73207C13B1C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "klu_version.h";
+			path = "../../Include/KLU/klu_version.h";
 			sourceTree = "SOURCE_ROOT";
 		};
 		49A0B3E1A3B0DB40CC2027BF = {
@@ -606,13 +641,6 @@
 			path = "../../Libraries/SuiteSparse_config/libsuitesparseconfig.a";
 			sourceTree = "SOURCE_ROOT";
 		};
-		570389B9D8FD1C6AEA42C6EF = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = "klu_solver.h";
-			path = "../../Source/include/klu_solver.h";
-			sourceTree = "SOURCE_ROOT";
-		};
 		5809992FA6D82E46F0EDF44D = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.cpp;
@@ -634,18 +662,18 @@
 			path = "/Users/timothy/JUCE/modules/juce_audio_formats";
 			sourceTree = "<absolute>";
 		};
-		5D516315B7ECD0D5AD2D3839 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = amd.h;
-			path = "../../Source/include/KLU_lib/amd.h";
-			sourceTree = "SOURCE_ROOT";
-		};
 		5D648611C0F1A86D0685AD9A = {
 			isa = PBXFileReference;
 			lastKnownFileType = file.r;
 			name = "include_juce_audio_plugin_client_AU.r";
 			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU.r";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5F3FE8DAB9610AAFA73E70E2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = klu.h;
+			path = ../../Include/KLU/klu.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		60C6BDAA7FEE4EAADE9A0E6B = {
@@ -690,6 +718,13 @@
 			path = ../../Assets/font.ttf;
 			sourceTree = "SOURCE_ROOT";
 		};
+		6B68200BD8CC1A44678AD74E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "klu_solver.h";
+			path = "../../Include/klu_solver.h";
+			sourceTree = "SOURCE_ROOT";
+		};
 		6BBB7749079807D1ED8F5793 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.c;
@@ -718,13 +753,6 @@
 			path = ../../Assets/offswitch.png;
 			sourceTree = "SOURCE_ROOT";
 		};
-		782372ECBD8ABC4D22C5AFAC = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = ccolamd.h;
-			path = "../../Source/include/KLU_lib/ccolamd.h";
-			sourceTree = "SOURCE_ROOT";
-		};
 		7849CAFE82B7379A7E5A6B7A = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
@@ -746,6 +774,13 @@
 			path = ../../Source/engine/junctions.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
+		7CD1ED0EF5E9EBF6E01695C0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = junctions.h;
+			path = ../../Include/junctions.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		7F5F0BFC18E53C69C4082FD7 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file.f;
@@ -760,18 +795,18 @@
 			path = System/Library/Frameworks/AudioToolbox.framework;
 			sourceTree = SDKROOT;
 		};
-		81138F95C5DE4DC3CC2EA6C3 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = "amd_internal.h";
-			path = "../../Source/include/KLU_lib/amd_internal.h";
-			sourceTree = "SOURCE_ROOT";
-		};
 		8442496395142444E792F908 = {
 			isa = PBXFileReference;
 			lastKnownFileType = image.png;
 			name = image.png;
 			path = ../../Assets/image.png;
+			sourceTree = "SOURCE_ROOT";
+		};
+		86091CCCB51F713B89D170F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = camd.h;
+			path = ../../Include/KLU/camd.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		8833688AC232036A2E35DA9B = {
@@ -809,11 +844,25 @@
 			path = "/Users/timothy/JUCE/modules/juce_audio_devices";
 			sourceTree = "<absolute>";
 		};
+		9315A3D7FB517723A93C2DE8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "klu_internal.h";
+			path = "../../Include/KLU/klu_internal.h";
+			sourceTree = "SOURCE_ROOT";
+		};
 		93EFBF3F88195C78E2A8CD88 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.c;
 			name = "klu_dump.c";
 			path = "../../Libraries/KLU/Source/klu_dump.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		976D5A8D4C5B971793556812 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "SuiteSparse_config.h";
+			path = "../../Include/KLU/SuiteSparse_config.h";
 			sourceTree = "SOURCE_ROOT";
 		};
 		98960812866C056B874B1551 = {
@@ -830,25 +879,11 @@
 			path = "../../Libraries/KLU/Source/klu_scale.c";
 			sourceTree = "SOURCE_ROOT";
 		};
-		9BAF94D80A331A39E87BC547 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = patch.h;
-			path = ../../Source/patch.h;
-			sourceTree = "SOURCE_ROOT";
-		};
 		9CAC2CE9D1FB492ECCEC5022 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_gui_basics.mm";
 			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
-			sourceTree = "SOURCE_ROOT";
-		};
-		9F800EEEAA705EDB7D75A7A0 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = klu.h;
-			path = "../../Source/include/KLU_lib/klu.h";
 			sourceTree = "SOURCE_ROOT";
 		};
 		A201F4C71CB3FA2FF1064F81 = {
@@ -858,25 +893,11 @@
 			path = "../../Libraries/AMD/Source/amd_info.c";
 			sourceTree = "SOURCE_ROOT";
 		};
-		A218C197164A7D8212746862 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = "klu_version.h";
-			path = "../../Source/include/KLU_lib/klu_version.h";
-			sourceTree = "SOURCE_ROOT";
-		};
 		A4C074CD02A5514F56A1F153 = {
 			isa = PBXFileReference;
 			lastKnownFileType = text.plist.xml;
 			name = "Info-VST3.plist";
 			path = "Info-VST3.plist";
-			sourceTree = "SOURCE_ROOT";
-		};
-		A94B75486924EBFEE6A9B389 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = metis.h;
-			path = "../../Source/include/KLU_lib/metis.h";
 			sourceTree = "SOURCE_ROOT";
 		};
 		AA70CF0DAFFC3F037CD96CCE = {
@@ -907,6 +928,13 @@
 			path = "/Users/timothy/JUCE/modules/juce_graphics";
 			sourceTree = "<absolute>";
 		};
+		AECCE2931279C8B219156727 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "amd_2.c";
+			path = "../../Libraries/AMD/Source/amd_2.c";
+			sourceTree = "SOURCE_ROOT";
+		};
 		B06602676EA0F70BD0A4C968 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.cpp.cpp;
@@ -928,13 +956,6 @@
 			path = "/Users/timothy/JUCE/modules/juce_cryptography";
 			sourceTree = "<absolute>";
 		};
-		B231F25D687803AEA00BBE57 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = AudioFile.h;
-			path = ../../Source/include/AudioFile.h;
-			sourceTree = "SOURCE_ROOT";
-		};
 		B360803BFDFFCFC9250A784C = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
@@ -942,39 +963,11 @@
 			path = "/Users/timothy/JUCE/modules/juce_gui_basics";
 			sourceTree = "<absolute>";
 		};
-		B5F80D2FAC71D115D4E6C4A5 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.c;
-			name = "klu_refactor.c";
-			path = "../../Libraries/KLU/Source/klu_refactor.c";
-			sourceTree = "SOURCE_ROOT";
-		};
 		B75507D16D7A099EFBABA14F = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.h;
 			name = PluginProcessor.h;
 			path = ../../Source/PluginProcessor.h;
-			sourceTree = "SOURCE_ROOT";
-		};
-		B79580D4688B1311A1731249 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = camd.h;
-			path = "../../Source/include/KLU_lib/camd.h";
-			sourceTree = "SOURCE_ROOT";
-		};
-		BAA1612C96E7C867944D3E37 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.c;
-			name = "klu_tsolve.c";
-			path = "../../Libraries/KLU/Source/klu_tsolve.c";
-			sourceTree = "SOURCE_ROOT";
-		};
-		BB8A952B263D218D72E2C6AB = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.cpp.cpp;
-			name = BinaryData.cpp;
-			path = ../../JuceLibraryCode/BinaryData.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		BC9DC1E302DA8CEB9194033F = {
@@ -1019,6 +1012,13 @@
 			path = System/Library/Frameworks/Cocoa.framework;
 			sourceTree = SDKROOT;
 		};
+		A0CD444547A13E62C1B7F3D5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = dataStruct.h;
+			path = ../../Include/dataStruct.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		A9BB27EB15A63A2F3DCA8675 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
@@ -1026,11 +1026,25 @@
 			path = System/Library/Frameworks/CoreMIDI.framework;
 			sourceTree = SDKROOT;
 		};
-		AECCE2931279C8B219156727 = {
+		B5F80D2FAC71D115D4E6C4A5 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.c;
-			name = "amd_2.c";
-			path = "../../Libraries/AMD/Source/amd_2.c";
+			name = "klu_refactor.c";
+			path = "../../Libraries/KLU/Source/klu_refactor.c";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B902849D233CBEB93C236411 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginProcessor.h;
+			path = ../../Include/PluginProcessor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		BAA1612C96E7C867944D3E37 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.c;
+			name = "klu_tsolve.c";
+			path = "../../Libraries/KLU/Source/klu_tsolve.c";
 			sourceTree = "SOURCE_ROOT";
 		};
 		BAE47251EE19443263094382 = {
@@ -1038,6 +1052,13 @@
 			lastKnownFileType = file.f;
 			name = amdbar.f;
 			path = ../../Libraries/AMD/Source/amdbar.f;
+			sourceTree = "SOURCE_ROOT";
+		};
+		BB8A952B263D218D72E2C6AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BinaryData.cpp;
+			path = ../../JuceLibraryCode/BinaryData.cpp;
 			sourceTree = "SOURCE_ROOT";
 		};
 		BD5890B3FAE89FDD2E20DAB1 = {
@@ -1103,6 +1124,13 @@
 			path = "../../Libraries/AMD/Source/amd_control.c";
 			sourceTree = "SOURCE_ROOT";
 		};
+		C67778398DABFF286C95ECEF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = colamd.h;
+			path = ../../Include/KLU/colamd.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		C8F63C9DCAB39A4204DCFCC9 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.c;
@@ -1145,6 +1173,13 @@
 			path = "../../JuceLibraryCode/include_juce_audio_plugin_client_AU_2.mm";
 			sourceTree = "SOURCE_ROOT";
 		};
+		D44524BBB066D62EA8A5F78E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "btf_internal.h";
+			path = "../../Include/KLU/btf_internal.h";
+			sourceTree = "SOURCE_ROOT";
+		};
 		D67A8B1400A20371F8307711 = {
 			isa = PBXFileReference;
 			lastKnownFileType = sourcecode.c.c;
@@ -1158,20 +1193,6 @@
 			name = "juce_core";
 			path = "/Users/timothy/JUCE/modules/juce_core";
 			sourceTree = "<absolute>";
-		};
-		D8E6687637F3CC6D34D5D0A2 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = "klu_internal.h";
-			path = "../../Source/include/KLU_lib/klu_internal.h";
-			sourceTree = "SOURCE_ROOT";
-		};
-		DAF5E2A687F361EE4A84AE8D = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = colamd.h;
-			path = "../../Source/include/KLU_lib/colamd.h";
-			sourceTree = "SOURCE_ROOT";
 		};
 		E1CF89417B1A2EF402F8FA95 = {
 			isa = PBXFileReference;
@@ -1194,12 +1215,26 @@
 			path = ../../Assets/font.otf;
 			sourceTree = "SOURCE_ROOT";
 		};
+		E797A0655018B024F316EA21 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = PluginEditor.h;
+			path = ../../Include/PluginEditor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
 		E89DC38DE8E0CE04C3F7DDC8 = {
 			isa = PBXFileReference;
 			lastKnownFileType = wrapper.framework;
 			name = Carbon.framework;
 			path = System/Library/Frameworks/Carbon.framework;
 			sourceTree = SDKROOT;
+		};
+		E8C8F736285EABB2725B66A1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = SliderClass.h;
+			path = ../../Include/SliderClass.h;
+			sourceTree = "SOURCE_ROOT";
 		};
 		E9C7191ECF956E5E725964EC = {
 			isa = PBXFileReference;
@@ -1213,6 +1248,13 @@
 			lastKnownFileType = sourcecode.cpp.objcpp;
 			name = "include_juce_data_structures.mm";
 			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EADCCED17F16A8F5A8DDFBF0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = amd.h;
+			path = ../../Include/KLU/amd.h;
 			sourceTree = "SOURCE_ROOT";
 		};
 		EBCB9747361614EE8081A2E7 = {
@@ -1271,19 +1313,48 @@
 			path = "../../Libraries/KLU/Source/klu_kernel.c";
 			sourceTree = "SOURCE_ROOT";
 		};
-		FA90D3919AA0FFA95B350C33 = {
-			isa = PBXFileReference;
-			lastKnownFileType = sourcecode.c.h;
-			name = "SuiteSparse_config.h";
-			path = "../../Source/include/KLU_lib/SuiteSparse_config.h";
-			sourceTree = "SOURCE_ROOT";
-		};
 		FE53BA949AD6C1BDF1200300 = {
 			isa = PBXFileReference;
 			lastKnownFileType = file;
 			name = "juce_audio_utils";
 			path = "/Users/timothy/JUCE/modules/juce_audio_utils";
 			sourceTree = "<absolute>";
+		};
+		179E286877CF3D5301371D53 = {
+			isa = PBXGroup;
+			children = (
+				EADCCED17F16A8F5A8DDFBF0,
+				2389B07724E9DA6D938DA113,
+				120F37A204853FA995D86FCC,
+				D44524BBB066D62EA8A5F78E,
+				86091CCCB51F713B89D170F5,
+				051692253A1F78AC959D44F1,
+				C67778398DABFF286C95ECEF,
+				5F3FE8DAB9610AAFA73E70E2,
+				9315A3D7FB517723A93C2DE8,
+				48582FAA7C81B73207C13B1C,
+				2EF3B9399736832E73329D03,
+				976D5A8D4C5B971793556812,
+			);
+			name = KLU;
+			sourceTree = "<group>";
+		};
+		BE24623DFCFBE22A3BCA0809 = {
+			isa = PBXGroup;
+			children = (
+				179E286877CF3D5301371D53,
+				02DDBAD1D443B48CAD9B72A7,
+				A0CD444547A13E62C1B7F3D5,
+				7CD1ED0EF5E9EBF6E01695C0,
+				6B68200BD8CC1A44678AD74E,
+				05B34A54CA372A4BDA707D10,
+				E797A0655018B024F316EA21,
+				B902849D233CBEB93C236411,
+				14D68F0F87850B0FE4204927,
+				E8C8F736285EABB2725B66A1,
+			);
+			name = Include;
+			sourceTree = "<group>";
 		};
 		49E555067FB7E5334E749F4D = {
 			isa = PBXGroup;
@@ -1445,46 +1516,15 @@
 			name = engine;
 			sourceTree = "<group>";
 		};
-		63A31BFCC7259907ABBBA9B8 = {
-			isa = PBXGroup;
-			children = (
-				5D516315B7ECD0D5AD2D3839,
-				81138F95C5DE4DC3CC2EA6C3,
-				0C079738AB6DDEB7AF446499,
-				43AE2B303851B669C0BBBCA5,
-				B79580D4688B1311A1731249,
-				782372ECBD8ABC4D22C5AFAC,
-				DAF5E2A687F361EE4A84AE8D,
-				9F800EEEAA705EDB7D75A7A0,
-				D8E6687637F3CC6D34D5D0A2,
-				A218C197164A7D8212746862,
-				A94B75486924EBFEE6A9B389,
-				FA90D3919AA0FFA95B350C33,
-			);
-			name = "KLU_lib";
-			sourceTree = "<group>";
-		};
-		6604861DAEFC2D2DBC5C5D4D = {
-			isa = PBXGroup;
-			children = (
-				63A31BFCC7259907ABBBA9B8,
-				570389B9D8FD1C6AEA42C6EF,
-				B231F25D687803AEA00BBE57,
-				1BD92C9E16755813CC2B6C3A,
-			);
-			name = include;
-			sourceTree = "<group>";
-		};
 		46EED0DF4AC73C09BC39D13C = {
 			isa = PBXGroup;
 			children = (
+				BE24623DFCFBE22A3BCA0809,
 				28C4E3B5652DF98D53841B5C,
 				D2C525C7A3162A98308F7035,
 				249A61F0AD8FDD4B1AEB7A3A,
 				8EED982F4D6BFD1A43E3B193,
-				6604861DAEFC2D2DBC5C5D4D,
 				BE3A9BE86C23C805D95B9578,
-				9BAF94D80A331A39E87BC547,
 			);
 			name = AnalogPluginTemplate;
 			sourceTree = "<group>";
@@ -1647,8 +1687,8 @@
 					"/Users/timothy/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Users/timothy/JUCE/modules",
-					"../../Source/include",
-					"../../Source/include/KLU",
+					"../../Include",
+					"../../Include/KLU",
 					"/Users/timothy/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
@@ -1701,8 +1741,8 @@
 					"/Users/timothy/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Users/timothy/JUCE/modules",
-					"../../Source/include",
-					"../../Source/include/KLU",
+					"../../Include",
+					"../../Include/KLU",
 					"/Users/timothy/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
@@ -1755,8 +1795,8 @@
 					"/Users/timothy/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Users/timothy/JUCE/modules",
-					"../../Source/include",
-					"../../Source/include/KLU",
+					"../../Include",
+					"../../Include/KLU",
 					"/Users/timothy/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
@@ -1810,8 +1850,8 @@
 					"/Users/timothy/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Users/timothy/JUCE/modules",
-					"../../Source/include",
-					"../../Source/include/KLU",
+					"../../Include",
+					"../../Include/KLU",
 					"/Users/timothy/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
@@ -1862,8 +1902,8 @@
 					"/Users/timothy/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Users/timothy/JUCE/modules",
-					"../../Source/include",
-					"../../Source/include/KLU",
+					"../../Include",
+					"../../Include/KLU",
 					"/Users/timothy/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
@@ -1910,8 +1950,8 @@
 					"/Users/timothy/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Users/timothy/JUCE/modules",
-					"../../Source/include",
-					"../../Source/include/KLU",
+					"../../Include",
+					"../../Include/KLU",
 					"/Users/timothy/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
@@ -1959,8 +1999,8 @@
 					"/Users/timothy/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Users/timothy/JUCE/modules",
-					"../../Source/include",
-					"../../Source/include/KLU",
+					"../../Include",
+					"../../Include/KLU",
 					"/Users/timothy/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);
@@ -2007,8 +2047,8 @@
 					"/Users/timothy/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
 					"../../JuceLibraryCode",
 					"/Users/timothy/JUCE/modules",
-					"../../Source/include",
-					"../../Source/include/KLU",
+					"../../Include",
+					"../../Include/KLU",
 					"/Users/timothy/JUCE/modules/juce_audio_plugin_client",
 					"$(inherited)",
 				);

@@ -38,19 +38,11 @@ NewProjectAudioProcessorEditor::NewProjectAudioProcessorEditor (NewProjectAudioP
 
 
         for(int i = 0; i < 3; i++) {
-                qualityToggle[i].setClickingTogglesState (true);
                 channelToggle[i].setClickingTogglesState (true);
-
-                addAndMakeVisible (qualityToggle[i]);
                 addAndMakeVisible (channelToggle[i]);
         }
 
 
-        qualityToggle[0].setRadioGroupId(Quality);
-        qualityToggle[1].setRadioGroupId(Quality);
-        qualityToggle[2].setRadioGroupId(Quality);
-
-        qualityToggle[1].setToggleState(true, dontSendNotification);
 
         channelToggle[0].setRadioGroupId(Channel);
         channelToggle[1].setRadioGroupId(Channel);
@@ -69,15 +61,11 @@ NewProjectAudioProcessorEditor::NewProjectAudioProcessorEditor (NewProjectAudioP
                                    };
 
         int edges[4] = {2, 3, 1};
-
         for (int i = 0; i < 3; i++) {
-                qualityToggle[i].setConnectedEdges(edges[i]);
-                channelToggle[i].setConnectedEdges(edges[i]);
+
+            channelToggle[i].setConnectedEdges(edges[i]);
         }
 
-        qualityToggle[0].setButtonText("L");
-        qualityToggle[1].setButtonText ("M");
-        qualityToggle[2].setButtonText ("H");
 
         channelToggle[0].setButtonText("L");
         channelToggle[1].setButtonText ("ST");
@@ -107,7 +95,6 @@ void NewProjectAudioProcessorEditor::paint (Graphics& g)
 
         g.setColour (Colours::white);
         g.drawFittedText ("Input\nChannel", getWidth()-70, 50, 70, 100, Justification::centred, 1);
-        g.drawFittedText ("Quality", getWidth()-70, 120, 70, 70, Justification::centred, 1);
 
         Image logo = ImageCache::getFromMemory (BinaryData::logo_png, BinaryData::logo_pngSize);
         g.drawImageAt(logo, getWidth()-65, getHeight()-60);
@@ -148,9 +135,6 @@ void NewProjectAudioProcessorEditor::resized()
         channelToggle[1].setBounds (getWidth()-47, 120, 21, 21);
         channelToggle[2].setBounds (getWidth()-27, 120, 21, 21);
 
-        qualityToggle[0].setBounds (getWidth()-67, 170, 21, 21);
-        qualityToggle[1].setBounds (getWidth()-47, 170, 21, 21);
-        qualityToggle[2].setBounds (getWidth()-27, 170, 21, 21);
         sliders.resized(*this);
 
         processor.oscilloscope.setBounds (20, 120, 180, 100);

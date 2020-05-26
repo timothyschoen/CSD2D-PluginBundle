@@ -49,7 +49,7 @@
 #if ! JUCE_DONT_DECLARE_PROJECTINFO
 namespace ProjectInfo
 {
-    const char* const  projectName    = "AnalogPluginTemplate";
+    const char* const  projectName    = "BadOctaver";
     const char* const  companyName    = "TS";
     const char* const  versionString  = "0.1";
     const int          versionNumber  = 0x100;

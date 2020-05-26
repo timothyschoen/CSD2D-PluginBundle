@@ -3,7 +3,6 @@
 #include <algorithm>
 #include <cmath>
 #include "junctions.h"
-#include "AudioFile.h"
 #include "patch.h"
 
 
@@ -47,7 +46,6 @@ void Patch::init() {
     pnE4.initJunctionPN(7.0707e-15, 1.24);
     pnE4.linearizeJunctionPN(0);
 
-    audioInFile1.load("/Users/timothy/Documents/Circuitry/Media//Solo.wav");
     A[31][31] += pnC1.geq + 1e-12;
     A[32][32] += pnE1.geq + 1e-12;
     A[35][35] += pnC2.geq + 1e-12;
@@ -82,10 +80,7 @@ double Patch::inout(double input) {
     ticks++;
     input *= controls[0];
 
-    
-      
-      
-    b[29] += audioInFile1.samples[0][ticks] * 0.5;
+    b[29] += input * 0.5;
     b[30] += 9;
     b[39] += x[39];
     b[40] += x[40];

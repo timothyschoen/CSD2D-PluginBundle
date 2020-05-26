@@ -332,10 +332,10 @@
  #define JucePlugin_Enable_IAA             0
 #endif
 #ifndef  JucePlugin_Name
- #define JucePlugin_Name                   "AnalogPluginTemplate"
+ #define JucePlugin_Name                   "Fuzzface"
 #endif
 #ifndef  JucePlugin_Desc
- #define JucePlugin_Desc                   "AnalogPluginTemplate"
+ #define JucePlugin_Desc                   "Fuzzface"
 #endif
 #ifndef  JucePlugin_Manufacturer
  #define JucePlugin_Manufacturer           "TS"
@@ -392,16 +392,16 @@
  #define JucePlugin_AUSubType              JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_AUExportPrefix
- #define JucePlugin_AUExportPrefix         AnalogPluginTemplateAU
+ #define JucePlugin_AUExportPrefix         FuzzfaceAU
 #endif
 #ifndef  JucePlugin_AUExportPrefixQuoted
- #define JucePlugin_AUExportPrefixQuoted   "AnalogPluginTemplateAU"
+ #define JucePlugin_AUExportPrefixQuoted   "FuzzfaceAU"
 #endif
 #ifndef  JucePlugin_AUManufacturerCode
  #define JucePlugin_AUManufacturerCode     JucePlugin_ManufacturerCode
 #endif
 #ifndef  JucePlugin_CFBundleIdentifier
- #define JucePlugin_CFBundleIdentifier     com.TS.AnalogPluginTemplate
+ #define JucePlugin_CFBundleIdentifier     com.TS.Fuzzface
 #endif
 #ifndef  JucePlugin_RTASCategory
  #define JucePlugin_RTASCategory           0
@@ -419,7 +419,7 @@
  #define JucePlugin_RTASDisableMultiMono   0
 #endif
 #ifndef  JucePlugin_AAXIdentifier
- #define JucePlugin_AAXIdentifier          com.TS.AnalogPluginTemplate
+ #define JucePlugin_AAXIdentifier          com.TS.Fuzzface
 #endif
 #ifndef  JucePlugin_AAXManufacturerCode
  #define JucePlugin_AAXManufacturerCode    JucePlugin_ManufacturerCode
@@ -443,7 +443,7 @@
  #define JucePlugin_IAASubType             JucePlugin_PluginCode
 #endif
 #ifndef  JucePlugin_IAAName
- #define JucePlugin_IAAName                "TS: AnalogPluginTemplate"
+ #define JucePlugin_IAAName                "TS: Fuzzface"
 #endif
 #ifndef  JucePlugin_VSTNumMidiInputs
  #define JucePlugin_VSTNumMidiInputs       16

@@ -14,9 +14,9 @@ BEGIN
     BLOCK "040904E4"
     BEGIN
       VALUE "CompanyName",  "TS\0"
-      VALUE "FileDescription",  "AnalogPluginTemplate\0"
+      VALUE "FileDescription",  "BigMuff\0"
       VALUE "FileVersion",  "0.1\0"
-      VALUE "ProductName",  "AnalogPluginTemplate\0"
+      VALUE "ProductName",  "BigMuff\0"
       VALUE "ProductVersion",  "0.1\0"
     END
   END

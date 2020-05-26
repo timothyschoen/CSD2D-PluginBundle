@@ -72,7 +72,6 @@ void KLU::solve(double* Ain, double* b, double* x)
 
         for (size_t i = 0; i < nonzero; i++) {
                 Aa[i] = *(nzpointers[i]);
-                printf("%G\n", b[i+1]);
 
         }
 

@@ -24,7 +24,7 @@ namespace BinaryData
     const int            SuiteSparse_config_oSize = 3824;
 
     extern const char*   font_otf;
-    const int            font_otfSize = 127428;
+    const int            font_otfSize = 69112;
 
     extern const char*   image_png;
     const int            image_pngSize = 3246;
