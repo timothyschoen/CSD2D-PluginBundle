@@ -102,14 +102,15 @@ void NewProjectAudioProcessor::changeProgramName (int index, const String& newNa
 //==============================================================================
 void NewProjectAudioProcessor::prepareToPlay (double sampleRate, int samplesPerBlock)
 {
+        // Initialize the same patch twice for stereo processing
         patchL.init();
         patchR.init();
-        // Use this method as the place to do any pre-playback
-        // initialisation that you need..
+
 }
 
 void NewProjectAudioProcessor::releaseResources()
 {
+        // Delete recources
         patchL.destroy();
         patchR.destroy();
         // When playback stops, you can use this as an opportunity to free up any
@@ -164,12 +165,14 @@ void NewProjectAudioProcessor::processBlock (AudioBuffer<float>& buffer, MidiBuf
         for (int i = 0; i < totalNumOutputChannels; ++i)
                 outBuffer[i] = buffer.getWritePointer (i);
 
-
+        // Get the sample!!
+        // I made an array of functions to easily switch between left, right or stereo input
         (this->*channelGenerators[channel])(totalNumOutputChannels, buffer.getNumSamples(), outBuffer, inBuffer);
 
 
 }
 
+// Process audio for left side
 void NewProjectAudioProcessor::processLeft(int outputChannels, int numsamps, float** outBuffer, const float** inBuffer) {
 
         for (int i=0; i<numsamps; ++i)
@@ -184,7 +187,7 @@ void NewProjectAudioProcessor::processLeft(int outputChannels, int numsamps, flo
 
         }
 }
-
+// Process audio for right side
 void NewProjectAudioProcessor::processRight(int outputChannels, int numsamps, float** outBuffer, const float** inBuffer) {
         for (int i=0; i<numsamps; ++i)
         {
@@ -199,6 +202,7 @@ void NewProjectAudioProcessor::processRight(int outputChannels, int numsamps, fl
 
 }
 
+// Process stereo audio
 void NewProjectAudioProcessor::processStereo(int outputChannels, int numsamps, float** outBuffer, const float** inBuffer) {
         for (int i=0; i<numsamps; ++i)
         {
@@ -213,6 +217,7 @@ void NewProjectAudioProcessor::processStereo(int outputChannels, int numsamps, f
 
 }
 
+// Bypass audio -> I should later implement shutdownAudio and setNumChannels for this!!!!
 void NewProjectAudioProcessor::processBypass(int outputChannels, int numsamps, float** outBuffer, const float** inBuffer) {
         for (int i=0; i<numsamps; ++i)
         {

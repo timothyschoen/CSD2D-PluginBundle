@@ -1,12 +1,4 @@
-/*
-   ==============================================================================
-
-    This file was auto-generated!
-
-    It contains the basic framework code for a JUCE plugin editor.
-
-   ==============================================================================
- */
+// Class for static UI elements
 
 #include "PluginEditor.h"
 
